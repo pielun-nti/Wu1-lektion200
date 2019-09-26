@@ -16,6 +16,9 @@ body {
     background-image: url("img/background.png");
 }
 
+.something {
+    
+}
 .testp {
     
     display: flex;
@@ -36,17 +39,100 @@ body {
     height: 200px;
 }
 
-footer {
-    display: flex;
-    align-items: right;
-    align-content: right;
+#container {
+    width: 680px;
+    /* background-color: #000000; */
+    height: auto;
+    display: block; }
 
-}
-.footertext {
+    #container .left {
+        width: 300px;
+        /* background-color: #FFFFFF; */
+        float: left;
+        margin: 10px;
+        padding: 10px; }
+
+        #container .right {
+            width: 300px;
+            /* background-color: #FFFFFF; */
+            float: left;
+            display: flex;
+            margin: 10px;
+            padding: 10px; }
+            #container:after {
+                content: "."; 
+                display: block;
+                height: 0; 
+                clear: both;
+                visibility: hidden; }
+
+                
+                #container-2 {
+                    width: 680px;
+                    /* background-color: #000000; */
+                    height: auto;
+                    display: block; }
+                
+                    #container-2 .left {
+                        width: 300px;
+                        /* background-color: #FFFFFF; */
+                        float: left;
+                        margin: 10px;
+                        padding: 10px; }
+                
+                        #container-2 .right {
+                            width: 300px;
+                            /* background-color: #FFFFFF; */
+                            float: left;
+                            display: flex;
+                            margin: 10px;
+                            padding: 10px; }
+                            #container-2:after {
+                                content: "."; 
+                                display: block;
+                                height: 0; 
+                                clear: both;
+                                visibility: hidden; }
+                      
+
+                                #container-3 {
+                                    width: 680px;
+                                    /* background-color: #000000; */
+                                    height: auto;
+                                    display: block; }
+                                
+                                    #container-3 .left {
+                                        width: 300px;
+                                        /* background-color: #FFFFFF; */
+                                        float: left;
+                                        margin: 10px;
+                                        padding: 10px; }
+                                
+                                        #container-3 .right {
+                                            width: 300px;
+                                            /* background-color: #FFFFFF; */
+                                            float: left;
+                                            display: flex;
+                                            margin: 10px;
+                                            padding: 10px; }
+                                            #container-3:after {
+                                                content: "."; 
+                                                display: block;
+                                                height: 0; 
+                                                clear: both;
+                                                visibility: hidden; }
+
+footer {
+    /* display: flex; */
+    align-items: right;
+    margin: 50%;
+    align-content: right;
+}                                       
+/* .footertext {
     display: flex;
     align-items: right;
     align-content: right;
-}
+} */
 main {
     flex: 1;
     /* align-items: center;
@@ -63,15 +149,20 @@ header {
 .nav {
     /* color: red; */
     align-items: right;
+    padding: 12.5px;
     align-content: right;
 }
 
 .page-1 {
-    color: black;
+    color: black; */
 
 }
 
 .page-2 {
+    color: black;
+}
+
+.page-3 {
     color: black;
 }
 p {
@@ -104,9 +195,6 @@ section {
     height: 100%;
 }
 
-footer {
-    align-items: center;
-}
 /* 
 .settings {
     width: 50px;
@@ -127,8 +215,12 @@ a:hover {
 }
 
 .bild2 {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
+}
+.bild3 {
+    width: 150px;
+    height: 150px;
 }
 @media screen and (max-width: 600px) {
     header>ul {
